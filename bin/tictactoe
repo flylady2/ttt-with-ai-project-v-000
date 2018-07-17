@@ -6,7 +6,7 @@ puts "Welcome to Tic Tac Toe!"
 puts "What kind of game do you want to play?"
 puts "Enter 0, 1 or 2 for the number of players."
 user_input = gets.strip
-if user_input = gets.strip
+if user_input == 2
   game = Game.new
 end
 until game.over?
